@@ -1,0 +1,249 @@
+/*Portada*/
+.container-portada{
+    overflow: hidden;
+    width: 100%;
+    height: 540px;
+    background-image: url(Port%201.jpg);
+    background-size: 100%;
+    animation: movimiento 10s infinite linear alternate;
+    position: relative;
+}
+@keyframes movimiento {
+    from{
+        background-position: bottom left;
+    } to{
+        background-position: top right;
+    }
+}
+.capa-gradient{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left, black, #721400);
+    opacity: 0.5;
+}
+.cont-texto{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+}
+.texto{
+    width: 100%
+    max-width: 600px;
+    position: relative;
+    top: 100px;
+    color:aliceblue;
+}
+.texto h1 {
+    font-size: 50px;
+    font-weight: 150;
+}
+.texto h2 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+/*Parte info*/
+.container-colum3{
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.co i{
+  font-size: 2em;
+  color: #333;
+  padding: 20px 0;
+}
+.co{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Primera parte colum*/
+.dos-colum1{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    max-height: 400px;
+}
+.dos-colum1 .colum-izq {
+    width: 50%;
+    max-height: 400px;
+    margin-top: 2%;
+}
+.dos-colum1 .colum-dere {
+    background-image: url(index1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 400px;
+}
+.dos-colum1 .colum-izq h2{
+    font-size: 40px;
+    margin-left: 3%;
+}
+.dos-colum1 .colum-izq p{
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+/*Segunda parte colum*/
+.dos-colum2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    max-height: 400px;
+}
+.dos-colum2 .colum-dere {
+    width: 50%;
+    max-height: 400px;
+    margin-top: 2%;
+}
+.dos-colum2 .colum-izq {
+    background-image: url(index2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 400px;
+}
+.dos-colum2 .colum-dere h2{
+    font-size: 40px;
+    margin-left: 3%;
+}
+.dos-colum2 .colum-dere p{
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+/*Tercera parte colum*/
+.dos-colum3{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    max-height: 400px;
+}
+.dos-colum3 .colum-izq {
+    width: 50%;
+    max-height: 400px;
+    margin-top: 2%;
+}
+.dos-colum3 .colum-dere {
+    background-image: url(index3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 400px;
+}
+.dos-colum3 .colum-izq h2{
+    font-size: 40px;
+    margin-left: 3%;
+}
+.dos-colum3 .colum-izq p{
+    font-size: 20px;
+    line-height: 25px;
+    text-align: justify;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+/*Sep*/
+.sep {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 12px;
+}
+
+/*Servi*/
+.des-ec .colum-4{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.des-ec-img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    max-width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+.des-tit {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.des-des{
+    text-align: center;
+    font-size: 15px;
+}
+.colum25{
+    width: 25%;
+}
+.container-flex {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+/*pie*/
+.footer{
+    background: #000000;
+    color:aliceblue;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.footer a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.footer .fab:before{
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+.colum-4{
+    width: 25%;
+}
+
+/*copy*/
+.copy{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    color:aliceblue;
+    font-size: 20px;
+}
+
+/*Boton*/
+.btn-bot{
+    display: block;
+    border: 4px solid #A18262;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    margin: 20px auto;
+    transition: all 0.5s;
+    font-size: 20px;
+    text-decoration: none;
+    color: #4B3621;
+}
+.btn-bot:hover{
+    background: #A18262;
+    color: white;
+}
+

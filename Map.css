@@ -1,0 +1,248 @@
+/*titulos*/
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    color: black;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    color: black;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 150;
+    margin-bottom: 20px;
+}
+p{
+    text-align: justify-all;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 18px;
+    line-height: 2;
+}
+
+/*dos columnas*/
+.dos-colum2{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.dos-colum2 .colum-izq{
+    max-width: 50%;
+    margin-right: 4%;
+    margin-left: 2%;
+}
+.dos-colum2 .colum-dere{
+    max-width: 50%;
+}
+
+/*menu-plantas*/
+.plantas{
+    background: #2A0F0F;
+    position: relative;
+}
+.menu-plantas{
+    text-align: center;
+    margin: 0;
+}
+.menu-plantas li{
+    display: inline-block;
+}
+.menu-plantas a {
+    padding: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    display: block;   
+    font-family: "verdana";
+    font-size: 15px;
+}
+.menu-plantas a:hover{
+    background: #C0C0C0;
+}
+
+/*dos colum map*/
+.dos-colum3{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.dos-colum3 .colum-izq{
+    max-width: 50%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.dos-colum3 .colum-dere{
+    max-width: 50%;
+}
+
+/*secciones*/
+#Baños{
+    position: absolute;
+    display: none;
+}
+#SE{
+    position: absolute;
+    display: none;
+}
+#Es{
+    position: absolute;
+    display: none;
+}
+#El{
+    position: absolute;
+    display: none;
+}
+#Com{
+    position: absolute;
+    display: none;
+}
+#SE1{
+    position: absolute;
+    display: none;
+}
+#Es1{
+    position: absolute;
+    display: none;
+}
+#El1{
+    position: absolute;
+    display: none;
+}
+#Lib{
+    position: absolute;
+    display: none;
+}
+#Ter{
+    position: absolute;
+    display: none;
+}
+#SaE{
+    position: absolute;
+    display: none;
+}
+#SE2{
+    position: absolute;
+    display: none;
+}
+#Es2{
+    position: absolute;
+    display: none;
+}
+#El2{
+    position: absolute;
+    display: none;
+}
+#CC{
+    position: absolute;
+    display: none;
+}
+#Pasillo{
+    position: absolute;
+    display: none;
+}
+#SE3{
+    position: absolute;
+    display: none;
+}
+#Es3{
+    position: absolute;
+    display: none;
+}
+#El3{
+    position: absolute;
+    display: none;
+}
+#Tea{
+    position: absolute;
+    display: none;
+}
+#Pasillo2{
+    position: absolute;
+    display: none;
+}
+
+/*nav map*/
+#Imagen-plant{
+    width: 100%;
+    height: 450px;
+    background-image: url(Plan-por.jpg);
+}
+#Plantabaja{
+    display: none;
+}
+#Primerpiso{
+    display: none;
+}
+#Segundopiso{
+    display: none;
+}
+#Tercerpiso{
+    display: none;
+}
+
+/*pie*/
+.container-flex{
+    display: flex;
+}
+.footer{
+    background: #000000;
+    color:aliceblue;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.footer a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.footer .fab:before{
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+.colum-fo{
+    width: 33%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.menu-footer{text-align: center;
+    margin: 0;
+}
+.menu-footer li{
+    display: inline-block;
+}
+.menu-footer {
+    color: aliceblue;
+    text-decoration: none;
+    display: block;   
+    font-family: "verdana";
+    font-size: 15px;
+    text-align: center;
+}
+
+/*copy*/
+.copy{
+    text-align: center;
+    color:aliceblue;
+    font-size: 20px;
+    background-color: black;
+    margin: auto;
+}
+
+/*sep*/
+.sep {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 10px;
+}

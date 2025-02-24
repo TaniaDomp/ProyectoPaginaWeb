@@ -1,0 +1,38 @@
+/*let inicio*/
+.icon-pal{
+    margin-top: 24px;
+    width: 100%;
+}
+.fa-check-circle{
+    font-size: 150px;
+    margin-left: 45%;
+    color: green;
+}
+.text-grac{
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.text-prim{
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/*boton*/
+.btn-re{
+    border: 3px solid #441515;
+    text-align: center;
+    width: 450px;
+    height: 50px;
+    font-size: 25px;
+    font-family: bold;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    color: black;
+}
+.btn-re:hover{
+    background: #441515;
+    color: white;
+}

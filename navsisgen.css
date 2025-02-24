@@ -1,0 +1,64 @@
+/*navegador*/
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: black;
+    position: relative;
+}
+.menu-sis{
+    margin: 0;
+    display: flex;
+}
+.img-lo{
+    margin-left: 5%;
+    margin-right: 20%;
+}
+.car, .cer-se{
+    margin-top: 11px;
+}
+.car{
+    margin-right: 20%
+}
+.menu-sis a {
+    padding: 30px;
+    text-decoration: none;
+    display: flex;   
+    font-size: 25px;
+}
+.product__img1{
+    height: 50px;
+    width: 150px;
+}
+.menu-sis a:hover{
+    background: #C0C0C0;
+}
+.fa-user-circle, .fa-shopping-cart{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+.fas, .far{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+/*copy*/
+.copy{
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    color:aliceblue;
+    font-size: 20px;
+    background-color: black;
+}
+.sep {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 12px;
+}

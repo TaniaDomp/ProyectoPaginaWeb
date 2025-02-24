@@ -1,0 +1,80 @@
+/*dos columnas*/
+.dos-colum2{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.dos-colum2 .colum-izq{
+    max-width: 50%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.dos-colum2 .colum-dere{
+    max-width: 50%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+/*titulo*/
+h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    color: saddlebrown;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 18px;
+    line-height: 2;
+}
+.product__price {
+    color: #381F1F;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: justify;
+}
+
+/*sumarestaart*/
+.btn-resu{
+    border: 1px solid #585858;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.btn-resu:hover{
+    background: #585858;
+    color: white;
+}
+.conta{
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    border: 0;
+}
+
+/*boton carrito*/
+.btn-bot{
+    display: block;
+    border: 4px solid #683333;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    margin: 20px auto;
+    transition: all 0.5s;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.btn-bot:hover{
+    background: #683333;
+    color: white;
+}

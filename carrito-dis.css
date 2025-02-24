@@ -1,0 +1,138 @@
+/*titulos*/
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    color: black;
+    font-family: sans-serif;
+}
+
+/*tabla*/
+.container-tab, .container-tab1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.container-tab{
+    grid-auto-rows: 150px;
+}
+.table-title{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #423030;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.table-header{
+    font-weight: bold;
+    background-color: #513F3F;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-item{
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*sumarestaart*/
+.btn-resu{
+    border: 1px solid #585858;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.btn-resu:hover{
+    background: #585858;
+    color: white;
+}
+.conta{
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    border: 0;
+}
+
+/*quitar*/
+.btn-quitar{
+    border: 3px solid #8C3737;
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    font-family: bold;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    color: black;
+}
+.btn-quitar:hover{
+    background: #8C3737;
+    color: white;
+}
+
+/*imagen*/
+.imagen_car{
+    height: 100px;
+    width: 150px;
+}
+
+/*resultaso*/
+.tres-colum{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+.tres-colum .colum-izq{
+    width: 33%;
+    background-color: #5E1E1E;
+}
+.tot{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: bold;
+}
+.tres-colum .colum-dere{
+    margin-left: 2%;
+    width: 33%;
+    margin-top: 2%;
+}
+.comp-to{
+    color: #5E1E1E;
+    font-size: 30px;
+    text-align: center;
+}
+.tres-colum .colum-cen{
+    width: 33%;
+}
+.btn-re{
+    border: 3px solid #441515;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    font-size: 25px;
+    font-family: bold;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    color: black;
+}
+.btn-re:hover{
+    background: #441515;
+    color: white;
+}

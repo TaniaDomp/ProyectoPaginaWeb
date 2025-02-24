@@ -1,0 +1,78 @@
+/*dos colum*/
+.dos-colum2{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.dos-colum2 .colum-izq{
+    width: 50%;
+    border-right: 2px solid gray;
+}
+.dos-colum2 .colum-dere{
+    width: 50%;
+}
+
+/*tit*/
+.Tit-F{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 90px;
+    font-family: verdana;
+}
+
+/*form*/
+.Formulario-is{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+.Formulario-ic{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 90px;
+}
+label{
+    font-size:20px;
+    color: black;
+    letter-spacing:.1em;
+}
+input{
+    align-self: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.text-i{
+    width: 45%;
+    margin-right: 3%;
+    height: 40px;
+    letter-spacing:.1em;
+}
+.text-2{
+    width: 100%;
+    height: 40px;
+    letter-spacing:.1em;
+}
+.rad{
+    margin-right: 1%;
+    margin-left: 4%;
+    letter-spacing:.1em;
+    font-size:20px;
+}
+.button {
+    padding:15px 0;
+    font-size:2rem;
+    letter-spacing:.1em;
+    color:white;
+    background-color: #3D2323;
+    transition:all.5s ease;
+}
+.button-block {
+    display:block;
+    width:100%;
+    margin-top: 25px;
+}

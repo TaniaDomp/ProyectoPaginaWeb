@@ -1,0 +1,129 @@
+/*titulos*/
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    color: black;
+    font-family: sans-serif;
+}
+
+/*dos colum*/
+.dos-colum2{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.dos-colum2 .colum-izq{
+    width: 50%;
+}
+.dos-colum2 .colum-dere{
+    width: 50%;
+}
+.dos-colum{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.dos-colum .colum-izq{
+    width: 50%;
+    background-color: #5E1E1E;
+}
+.tot{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: bold;
+}
+.dos-colum .colum-dere{
+    width: 50%;
+}
+.comp-to{
+    color: #5E1E1E;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*tabla*/
+.container-tab, .container-tab1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.container-tab{
+    grid-auto-rows: 40px;
+}
+.table-title{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #423030;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.table-header{
+    font-weight: bold;
+    background-color: #513F3F;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-item{
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*colum iz*/
+input{
+    width: 350px;
+    height: 30px;
+    align-self: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+}
+.btn-calci{
+    border: 3px solid #441515;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    font-family: bold;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    color: black;
+}
+.btn-calci:hover{
+    background: #441515;
+    color: white;
+}
+
+/*boton*/
+.btn-re{
+    border: 3px solid #441515;
+    text-align: center;
+    width: 650px;
+    height: 80px;
+    font-size: 30px;
+    font-family: bold;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    color: black;
+}
+.btn-re:hover{
+    background: #441515;
+    color: white;
+}

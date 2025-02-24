@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+	<link rel="stylesheet" href="Map.css">
+	<link rel="stylesheet" href="nav.css">
+	<script src="https://kit.fontawesome.com/3c87869cd4.js" crossorigin="anonymous"></script>
+<title>Mapa</title>
+</head>
+<body>
+    <nav> 
+    <ul class="menu">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="2%20Lect%20y%20Act.html">Lectura y Actividades</a></li>
+    <li><a href="3%20Informacion%20a%20la%20com.html">Información a la comunidad</a></li>
+    <li><a href="4%20Produc%20y%20serv.html">Productos y servicios</a></li>
+    <li><a href="5%20Mapa.html">Mapa</a></li>
+    <li><a href="6%20Inicio%20de%20sesion.php">Ingresar</a></li>
+    </ul>
+    </nav>
+    
+    <h1>Nuestra ubicación</h1><br>
+    <div class= "dos-colum2"> 
+    <div class="colum-izq">
+       <br><center><img src="Edif-map.jpg" width="650" height="400"></center>
+    </div>
+    <div class="colum-dere">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.946759302519!2d-99.16392987061512!3d19.41470621305163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3935d21d6f%3A0xd35fdf3966247c33!2sedificio%20yucat%C3%A1n%2069!5e0!3m2!1ses-419!2smx!4v1618704074609!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    </div>
+    <div class="sep"></div><div class="sep"></div>
+    
+    <div class="plantas"> 
+    <ul class="menu-plantas">
+    <li><a href="#Plantabaja" onclick="document.getElementById('Plantabaja').style.display = 'block';document.getElementById('Primerpiso').style.display = 'none';document.getElementById('Segundopiso').style.display = 'none';document.getElementById('Tercerpiso').style.display = 'none';document.getElementById('Imagen-plant').style.display = 'none'">Planta baja</a></li>
+    <li><a href="#Primerpiso" onclick="document.getElementById('Plantabaja').style.display = 'none';document.getElementById('Primerpiso').style.display = 'block';document.getElementById('Segundopiso').style.display = 'none';document.getElementById('Tercerpiso').style.display = 'none';document.getElementById('Imagen-plant').style.display = 'none'">Primer piso</a></li>
+    <li><a href="#Segundopiso" onclick="document.getElementById('Plantabaja').style.display = 'none';document.getElementById('Primerpiso').style.display = 'none';document.getElementById('Segundopiso').style.display = 'block';document.getElementById('Tercerpiso').style.display = 'none';document.getElementById('Imagen-plant').style.display = 'none'">Segundo piso</a></li>
+    <li><a href="#Tercerpiso" onclick="document.getElementById('Plantabaja').style.display = 'none';document.getElementById('Primerpiso').style.display = 'none';document.getElementById('Segundopiso').style.display = 'none';document.getElementById('Tercerpiso').style.display = 'block';document.getElementById('Imagen-plant').style.display = 'none'">Tercer piso</a></li>
+    </ul>
+    </div>
+    
+    <div id="Imagen-plant"></div>
+    
+    <div id="Plantabaja">
+    <center><h1>Planta Baja</h1></center>
+    <div class= "dos-colum3"> 
+    <div class="colum-izq">
+        <img src="Planta%20baja-Map.jpg" alt="Plan-Planta baja" usemap="#PB">
+        <map name="PB">
+            <area shape="rect" coords="6,7,173,259" href = "#Baños" onclick="document.getElementById('Baños').style.display = 'block';document.getElementById('SE').style.display = 'none';document.getElementById('Es').style.display = 'none';document.getElementById('El').style.display = 'none';document.getElementById('Com').style.display = 'none';" title="Baños">
+            <area shape="rect" coords="6,299,44,349" href="#SE" onclick="document.getElementById('Baños').style.display = 'none';document.getElementById('SE').style.display = 'block';document.getElementById('Es').style.display = 'none';document.getElementById('El').style.display = 'none';document.getElementById('Com').style.display = 'none';" title="Salida de emergencia">
+            <area shape="rect" coords="167,310,197,340" href="#Es" onclick="document.getElementById('Baños').style.display = 'none';document.getElementById('SE').style.display = 'none';document.getElementById('Es').style.display = 'block';document.getElementById('El').style.display = 'none';document.getElementById('Com').style.display = 'none';" title="Escaleras">
+            <area shape="rect" coords="319,493,346,520" href="#El" onclick="document.getElementById('Baños').style.display = 'none';document.getElementById('SE').style.display = 'none';document.getElementById('Es').style.display = 'none';document.getElementById('El').style.display = 'block';document.getElementById('Com').style.display = 'none';" title="Elevador">
+            <area shape="rect" coords="4,351,43,520" href="#Com" onclick="document.getElementById('Baños').style.display = 'none';document.getElementById('SE').style.display = 'none';document.getElementById('Es').style.display = 'none';document.getElementById('El').style.display = 'none';document.getElementById('Com').style.display = 'block';" title="Comedor">
+            <area shape="rect" coords="48,265,161,521" href="#Com" onclick="document.getElementById('Baños').style.display = 'none';document.getElementById('SE').style.display = 'none';document.getElementById('Es').style.display = 'none';document.getElementById('El').style.display = 'none';document.getElementById('Com').style.display = 'block';" title="Comedor">
+            <area shape="rect" coords="167,257,346,303" href="#Com" onclick="document.getElementById('Baños').style.display = 'none';document.getElementById('SE').style.display = 'none';document.getElementById('Es').style.display = 'none';document.getElementById('El').style.display = 'none';document.getElementById('Com').style.display = 'block';" title="Comedor">
+            <area shape="rect" coords="204,306,346,486" href="#Com" onclick="document.getElementById('Baños').style.display = 'none';document.getElementById('SE').style.display = 'none';document.getElementById('Es').style.display = 'none';document.getElementById('El').style.display = 'none';document.getElementById('Com').style.display = 'block';" title="Comedor">
+            <area shape="rect" coords="197,486,312,522" href="#Com" onclick="document.getElementById('Baños').style.display = 'none';document.getElementById('SE').style.display = 'none';document.getElementById('Es').style.display = 'none';document.getElementById('El').style.display = 'none';document.getElementById('Com').style.display = 'block';" title="Comedor">
+            <area shape="rect" coords="163,344,201,521" href="#Com" onclick="document.getElementById('Baños').style.display = 'none';document.getElementById('SE').style.display = 'none';document.getElementById('Es').style.display = 'none';document.getElementById('El').style.display = 'none';document.getElementById('Com').style.display = 'block';" title="Comedor">
+        </map>
+    </div>
+    <div class="colum-dere">
+        <div id="Baños">
+            <br><br><br><br><h2>Baños</h2><br><br>
+            <p>Se encuentran al fondo a la derecha después de entrar al establecimiento a un lado de la cocina</p>
+            <p>Están divididos en dos: Hombres y mujeres</p>
+        </div>
+        <div id="SE">
+            <br><br><br><br><h2>Salida de emergencia</h2><br><br>
+            <p>Se encuentran en la parte derecha del establecimiento a un lado de la barra del comedor</p>
+            <p>Ocúpelas en caso de sismos, incendios, etc.</p>
+        </div>
+        <div id="Es">
+            <br><br><br><br><h2>Escaleras</h2><br><br>
+            <p>Están justo en medio del establecimiento, después de las mesas del comedor</p>
+            <p>Ocúpelas para acceder a los demás niveles</p>
+        </div>
+        <div id="El">
+            <br><br><br><br><h2>Elevador</h2><br><br>
+            <p>Se encuentran en la parte izquierda del establecimiento, al ingresar podrá localizarlo con solo voltear a su izquierda</p>
+            <p>Ocúpelo cuando se encuentre una persona discapacitada y necesite acceder a los demás niveles</p>
+        </div>
+        <div id="Com">
+            <br><br><br><br><h2>Comedor</h2><br><br>
+            <p>Es la parte central de la planta. Puede consumir los alimentos de la cafeteria aqui</p>
+            <p>Brinda el servicio del restaurante a los clientes</p>
+        </div>
+    </div>
+    </div>
+    </div>
+   
+    <div id="Primerpiso">
+    <center><h1>Primer piso</h1></center>
+    <div class= "dos-colum3"> 
+    <div class="colum-izq">
+        <img src="Plan-1er%20piso.jpg" alt="Plan-1er piso" usemap="#1P">
+        <map name="1P">
+            <area shape ="rect" coords="6,301,43,348" href="#SE1" onclick="document.getElementById('SE1').style.display = 'block';document.getElementById('Es1').style.display = 'none';document.getElementById('El1').style.display = 'none';document.getElementById('Lib').style.display = 'none';document.getElementById('Ter').style.display = 'none';document.getElementById('SaE').style.display = 'none';" title="Salida de emergencia">
+            <area shape ="rect" coords="170,310,201,339" href="#Es1" onclick="document.getElementById('SE1').style.display = 'none';document.getElementById('Es1').style.display = 'block';document.getElementById('El1').style.display = 'none';document.getElementById('Lib').style.display = 'none';document.getElementById('Ter').style.display = 'none';document.getElementById('SaE').style.display = 'none';" title="Escaleras">
+            <area shape ="rect" coords="319,494,349,522" href="#El1" onclick="document.getElementById('SE1').style.display = 'none';document.getElementById('Es1').style.display = 'none';document.getElementById('El1').style.display = 'block';document.getElementById('Lib').style.display = 'none';document.getElementById('Ter').style.display = 'none';document.getElementById('SaE').style.display = 'none';" title="Elevador">
+            <area shape ="rect" coords="5,5,348,262" href="#Lib" onclick="document.getElementById('SE1').style.display = 'none';document.getElementById('Es1').style.display = 'none';document.getElementById('El1').style.display = 'none';document.getElementById('Lib').style.display = 'block';document.getElementById('Ter').style.display = 'none';document.getElementById('SaE').style.display = 'none';" title="Libreria">
+            <area shape ="rect" coords="6,388,227,522" href="#Ter" onclick="document.getElementById('SE1').style.display = 'none';document.getElementById('Es1').style.display = 'none';document.getElementById('El1').style.display = 'none';document.getElementById('Lib').style.display = 'none';document.getElementById('Ter').style.display = 'block';document.getElementById('SaE').style.display = 'none';" title="Terraza">
+            <area shape ="rect" coords="48,266,167,382" href="#SaE" onclick="document.getElementById('SE1').style.display = 'none';document.getElementById('Es1').style.display = 'none';document.getElementById('El1').style.display = 'none';document.getElementById('Lib').style.display = 'none';document.getElementById('Ter').style.display = 'none';document.getElementById('SaE').style.display = 'block';" title="Sala de estar">
+            <area shape ="rect" coords="170,261,348,308" href="#SaE" onclick="document.getElementById('SE1').style.display = 'none';document.getElementById('Es1').style.display = 'none';document.getElementById('El1').style.display = 'none';document.getElementById('Lib').style.display = 'none';document.getElementById('Ter').style.display = 'none';document.getElementById('SaE').style.display = 'block';" title="Sala de estar">
+            <area shape ="rect" coords="205,306,349,384" href="#SaE" onclick="document.getElementById('SE1').style.display = 'none';document.getElementById('Es1').style.display = 'none';document.getElementById('El1').style.display = 'none';document.getElementById('Lib').style.display = 'none';document.getElementById('Ter').style.display = 'none';document.getElementById('SaE').style.display = 'block';" title="Sala de estar">
+            <area shape ="rect" coords="169,345,205,383" href="#SaE" onclick="document.getElementById('SE1').style.display = 'none';document.getElementById('Es1').style.display = 'none';document.getElementById('El1').style.display = 'none';document.getElementById('Lib').style.display = 'none';document.getElementById('Ter').style.display = 'none';document.getElementById('SaE').style.display = 'block';" title="Sala de estar">
+            <area shape ="rect" coords="230,385,349,490" href="#SaE" onclick="document.getElementById('SE1').style.display = 'none';document.getElementById('Es1').style.display = 'none';document.getElementById('El1').style.display = 'none';document.getElementById('Lib').style.display = 'none';document.getElementById('Ter').style.display = 'none';document.getElementById('SaE').style.display = 'block';" title="Sala de estar">
+            <area shape ="rect" coords="232,494,315,522" href="#SaE" onclick="document.getElementById('SE1').style.display = 'none';document.getElementById('Es1').style.display = 'none';document.getElementById('El1').style.display = 'none';document.getElementById('Lib').style.display = 'none';document.getElementById('Ter').style.display = 'none';document.getElementById('SaE').style.display = 'block';" title="Sala de estar">
+        </map>
+    </div>
+    <div class="colum-dere">
+        <div id="SE1">
+            <br><br><br><br><h2>Salida de emergencia</h2><br><br>
+            <p>Se encuentran en la parte derecha del establecimiento al lado derecho de la terraza</p>
+            <p>Ocúpelas en caso de sismos, incendios, etc.</p>
+        </div>
+        <div id="Es1">
+            <br><br><br><br><h2>Escaleras</h2><br><br>
+            <p>Están justo en medio del establecimiento, antes de la libreria y despúes de la terraza</p>
+            <p>Ocúpelas para acceder a los demás niveles</p>
+        </div>
+        <div id="El1">
+            <br><br><br><br><h2>Elevador</h2><br><br>
+            <p>Se encuentran en la parte izquierda del piso, se encuentra al fondo del pasillo a un lado de la terraza</p>
+            <p>Ocúpelo cuando se encuentre una persona discapacitada y necesite acceder a los demás niveles</p>
+        </div>
+        <div id="Lib">
+            <br><br><br><br><h2>Libreria</h2><br><br>
+            <p>Se encuentra en la parte del fondo de la planta, se encuentran los libros y discos que quiera comprar</p>
+            <p>Pague sus productos en el mostrador del piso</p>
+        </div>
+        <div id="Ter">
+            <br><br><br><br><h2>Terraza</h2><br><br>
+            <p>Se encuentra en la parte superior del piso, al lado izquierdo del elevador y las escaleras</p>
+            <p>Puede ocupar las sillas para leer, consumir sus alimentos o sus actividades del club de lectura</p>
+        </div>
+        <div id="SaE">
+            <br><br><br><br><h2>Sala de estar</h2><br><br>
+            <p>Son las partes que se encuentran alrededor de la terraza, hay varias mesas y sillas para su descanso</p>
+            <p>Puede ocupar la sala para leer, consumir sus alimentos o sus actividades del club de lectura</p>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="Segundopiso">
+    <center><h1>Segundo piso</h1></center>
+    <div class= "dos-colum3"> 
+    <div class="colum-izq">
+        <img src="Plan-2do%20piso.jpg" alt="Plan-Segundo piso" usemap="#2P">
+        <map name="2P">
+            <area shape="rect" coords="4,296,41,342" href = "#SE2" onclick="document.getElementById('SE2').style.display = 'block';document.getElementById('Es2').style.display = 'none';document.getElementById('El2').style.display = 'none';document.getElementById('CC').style.display = 'none';document.getElementById('Pasillo').style.display = 'none';" title="Salida de Emergencia">
+            <area shape="rect" coords="166,304,198,336" href="#Es2" onclick="document.getElementById('SE2').style.display = 'none';document.getElementById('Es2').style.display = 'block';document.getElementById('El2').style.display = 'none';document.getElementById('CC').style.display = 'none';document.getElementById('Pasillo').style.display = 'none';" title="Escaleras">
+            <area shape="rect" coords="321,485,351,515" href="#El2" onclick="document.getElementById('SE2').style.display = 'none';document.getElementById('Es2').style.display = 'none';document.getElementById('El2').style.display = 'block';document.getElementById('CC').style.display = 'none';document.getElementById('Pasillo').style.display = 'none';" title="Elevador">
+            <area shape="rect" coords="143,4,351,257" href="#CC" onclick="document.getElementById('SE2').style.display = 'none';document.getElementById('Es2').style.display = 'none';document.getElementById('El2').style.display = 'none';document.getElementById('CC').style.display = 'block';document.getElementById('Pasillo').style.display = 'none';" title="Centro de cómputo">
+            <area shape="rect" coords="47,262,162,343" href="#Pasillo" onclick="document.getElementById('SE2').style.display ='none';document.getElementById('Es2').style.display = 'none';document.getElementById('El2').style.display = 'none';document.getElementById('CC').style.display = 'none';document.getElementById('Pasillo').style.display = 'block';" title="Pasillo">
+            <area shape="rect" coords="167,262,350,299" href="#Pasillo" onclick="document.getElementById('SE2').style.display ='none';document.getElementById('Es2').style.display = 'none';document.getElementById('El2').style.display = 'none';document.getElementById('CC').style.display = 'none';document.getElementById('Pasillo').style.display = 'block';" title="Pasillo">
+            <area shape="rect" coords="201,301,350,343" href="#Pasillo" onclick="document.getElementById('SE2').style.display ='none';document.getElementById('Es2').style.display = 'none';document.getElementById('El2').style.display = 'none';document.getElementById('CC').style.display = 'none';document.getElementById('Pasillo').style.display = 'block';" title="Pasillo">
+            <area shape="rect" coords="261,345,351,482" href="#Pasillo" onclick="document.getElementById('SE2').style.display ='none';document.getElementById('Es2').style.display = 'none';document.getElementById('El2').style.display = 'none';document.getElementById('CC').style.display = 'none';document.getElementById('Pasillo').style.display = 'block';" title="Pasillo">
+            <area shape="rect" coords="262,484,319,515" href="#Pasillo" onclick="document.getElementById('SE2').style.display ='none';document.getElementById('Es2').style.display = 'none';document.getElementById('El2').style.display = 'none';document.getElementById('CC').style.display = 'none';document.getElementById('Pasillo').style.display = 'block';" title="Pasillo">
+        </map>
+    </div>
+    <div class="colum-dere">
+        <div id="SE2">
+            <br><br><br><br><h2>Salida de emergencia</h2><br><br>
+            <p>Se encuentran en la parte derecha del establecimiento al fondo del pasillo del centro de cómputo</p>
+            <p>Ocúpelas en caso de sismos, incendios, etc.</p>
+        </div>
+        <div id="Es2">
+            <br><br><br><br><h2>Escaleras</h2><br><br>
+            <p>Están justo en medio del establecimiento, a un lado del centro de cómputo</p>
+            <p>Ocúpelas para acceder a los demás niveles</p>
+        </div>
+        <div id="El2">
+            <br><br><br><br><h2>Elevador</h2><br><br>
+            <p>Se encuentran en la parte izquierda del establecimiento, puede encontrarlo enfrente del centro de cómputo</p>
+            <p>Ocúpelo cuando se encuentre una persona discapacitada y necesite acceder a los demás niveles</p>
+        </div>
+        <div id="CC">
+            <br><br><br><br><h2>Centro de cómputo</h2><br><br>
+            <p>Es la parte izquierda del piso, puede encontrarlo caminando a la derecha de las escaleras</p>
+            <p>Puede investigar en internet, realizar sus trabajos y ocupar el servicio de impresora</p>
+        </div>
+        <div id="Pasillo">
+            <br><br><br><br><h2>Pasillo</h2><br><br>
+            <p>Son las partes alrededor de las escaleras y exteriores del centro de cómputo</p>
+            <p>Ocúpelos para trasportarse en el piso</p>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="Tercerpiso">
+    <center><h1>Tercer piso</h1></center>
+    <div class= "dos-colum3"> 
+    <div class="colum-izq">
+        <img src="Plan-3er%20piso.jpg" alt="Plan-Tercer piso" usemap="#3P">
+        <map name="3P">
+            <area shape="rect" coords="3,300,41,348" href = "#SE3" onclick="document.getElementById('SE3').style.display = 'block';document.getElementById('Es3').style.display = 'none';document.getElementById('El3').style.display = 'none';document.getElementById('Tea').style.display = 'none';document.getElementById('Pasillo2').style.display = 'none';" title="Salida de Emergencia">
+            <area shape="rect" coords="168,309,198,339" href="#Es3" onclick="document.getElementById('SE3').style.display = 'none';document.getElementById('Es3').style.display = 'block';document.getElementById('El3').style.display = 'none';document.getElementById('Tea').style.display = 'none';document.getElementById('Pasillo2').style.display = 'none'" title="Escaleras">
+            <area shape="rect" coords="317,492,346,522" href="#El3" onclick="document.getElementById('SE3').style.display = 'none';document.getElementById('Es3').style.display = 'none';document.getElementById('El3').style.display = 'block';document.getElementById('Tea').style.display = 'none';document.getElementById('Pasillo2').style.display = 'none'" title="Elevador">
+            <area shape="rect" coords="5,2,346,260" href="#Tea" onclick="document.getElementById('SE3').style.display = 'none';document.getElementById('Es3').style.display = 'none';document.getElementById('El3').style.display = 'none';document.getElementById('Tea').style.display = 'block';document.getElementById('Pasillo2').style.display = 'none'" title="Teatro">
+            <area shape="rect" coords="46,264,162,346" href="#Pasillo2" onclick="document.getElementById('SE3').style.display = 'none'; document.getElementById('Es3').style.display = 'none';document.getElementById('El3').style.display = 'none';document.getElementById('Tea').style.display = 'none';document.getElementById('Pasillo2').style.display = 'block'" title="Pasillo">
+            <area shape="rect" coords="168,265,346,303" href="#Pasillo2" onclick="document.getElementById('SE3').style.display = 'none'; document.getElementById('Es3').style.display = 'none';document.getElementById('El3').style.display = 'none';document.getElementById('Tea').style.display = 'none';document.getElementById('Pasillo2').style.display = 'block'" title="Pasillo">
+            <area shape="rect" coords="202,305,345,348" href="#Pasillo2" onclick="document.getElementById('SE3').style.display = 'none'; document.getElementById('Es3').style.display = 'none';document.getElementById('El3').style.display = 'none';document.getElementById('Tea').style.display = 'none';document.getElementById('Pasillo2').style.display = 'block'" title="Pasillo">
+            <area shape="rect" coords="282,350,346,489" href="#Pasillo2" onclick="document.getElementById('SE3').style.display = 'none'; document.getElementById('Es3').style.display = 'none';document.getElementById('El3').style.display = 'none';document.getElementById('Tea').style.display = 'none';document.getElementById('Pasillo2').style.display = 'block'" title="Pasillo">
+            <area shape="rect" coords="283,491,313,522" href="#Pasillo2" onclick="document.getElementById('SE3').style.display = 'none'; document.getElementById('Es3').style.display = 'none';document.getElementById('El3').style.display = 'none';document.getElementById('Tea').style.display = 'none';document.getElementById('Pasillo2').style.display = 'block'" title="Pasillo">
+        </map>
+    </div>
+    <div class="colum-dere">
+        <div id="SE3">
+            <br><br><br><br><h2>Salida de emergencia</h2><br><br>
+            <p>Se encuentran en la parte derecha del establecimiento al fondo del pasillo del teatro</p>
+            <p>Ocúpelas en caso de sismos, incendios, etc.</p>
+        </div>
+        <div id="Es3">
+            <br><br><br><br><h2>Escaleras</h2><br><br>
+            <p>Están justo en medio del establecimiento, a un lado del teatro</p>
+            <p>Ocúpelas para acceder a los demás niveles</p>
+        </div>
+        <div id="El3">
+            <br><br><br><br><h2>Elevador</h2><br><br>
+            <p>Se encuentran en la parte izquierda del establecimiento, del teatro</p>
+            <p>Ocúpelo cuando se encuentre una persona discapacitada y necesite acceder a los demás niveles</p>
+        </div>
+        <div id="Tea">
+            <br><br><br><br><h2>Teatro</h2><br><br>
+            <p>Es la parte del fondo del piso, puede encontrarlo al salir de las escaleras o seguir derecho desde el elevador</p>
+            <p>Aquí puede asistir a las conferencias, ciclos de cine, proyección de películas y exposiciones teatrales</p>
+        </div>
+        <div id="Pasillo2">
+            <br><br><br><br><h2>Pasillo</h2><br><br>
+            <p>Son las partes alrededor de las escaleras y exteriores del teatro</p>
+            <p>Ocúpelos para trasportarse en el piso</p>
+        </div>
+    </div>
+    </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="container-flex">
+            <div class="colum-fo">
+               <br>
+                <h2 class="colum-tit">Navegación</h2>
+                <br>
+                <ul class="menu-footer">
+                <br><li><a href="1%20Index.html">Inicio</a></li><br>
+                <br><li><a href="2%20Lect%20y%20Act.html">Lectura y Actividades</a></li><br>
+                <br><li><a href="3%20Informacion%20a%20la%20com.html">Información a la comunidad</a></li><br>
+                <br><li><a href="4%20Produc%20y%20serv.html">Productos y servicios</a></li><br>
+                <br><li><a href="5%20Mapa.html">Mapa</a></li><br>
+                <br><li><a href="6%20Inicio%20de%20sesion.html">Ingresar</a></li>
+                </ul>
+            </div>
+            <div class="colum-fo">
+               <br>
+                <h2 class="colum-tit">Síguenos en nuestras redes</h2>
+                <br>
+                <p class="colum-con"><a href=""><i class="fab fa-facebook">Facebook</i></a></p>
+                <p class="colum-con"><a href=""><i class="fab fa-twitter-square">Twitter</i></a></p>
+                <p class="colum-con"><a href=""><i class="fab fa-youtube-square">Youtube</i></a></p>
+            </div>
+            <div class="colum-fo">
+            <br><br><img src="Logo.jpg">
+            </div>
+        </div>
+        <p class="copy">© 2021 Derechos reservados | Diseñado por Equipo 1</p>
+    </footer>
+    <div class="sep"></div><div class="sep"></div>
+</body>
+</html>

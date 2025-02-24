@@ -1,0 +1,27 @@
+/*navegador*/
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: black;
+    position: relative;
+}
+.menu{
+    text-align: center;
+    margin: 0;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a {
+    padding: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    display: block;   
+    font-family: "verdana";
+    font-size: 15px;
+}
+.menu a:hover{
+    background: #C0C0C0;
+}

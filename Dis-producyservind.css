@@ -1,0 +1,110 @@
+/*nav*/
+.fa-arrow-left{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+/*dos columnas*/
+.dos-colum2{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.dos-colum2 .colum-izq{
+    max-width: 50%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.dos-colum2 .colum-dere{
+    max-width: 50%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+/*cuatro columnas*/
+.container-products {
+    display: flex;
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    width: 25%;
+}
+.product__img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.product__title{
+  text-align: center;
+}
+
+/*boton*/
+.btn-bot{
+    display: block;
+    border: 4px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+    margin: 20px auto;
+    transition: all 0.5s;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.btn-bot:hover{
+    background: black;
+    color: white;
+}
+
+/*botones*/
+.btn-bot2{
+    display: block;
+    border: 4px solid #683333;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    margin: 20px auto;
+    transition: all 0.5s;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.btn-bot2:hover{
+    background: #683333;
+    color: white;
+}
+
+/*titulo*/
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    color: black;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    color: black;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 150;
+    margin-bottom: 20px;
+}
+p{
+    text-align: justify-all;
+    font-size: 18px;
+    font-weight: 100;
+    margin-bottom: 18px;
+    line-height: 2;
+}

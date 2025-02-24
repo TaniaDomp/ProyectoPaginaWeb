@@ -1,0 +1,96 @@
+/*dos colum*/
+.dos-colum2{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.dos-colum2 .colum-izq{
+    width: 50%;
+}
+.dos-colum2 .colum-dere{
+    width: 50%;
+}
+
+/*tit*/
+.Tit-F{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: verdana;
+    color: #4F1818;
+}
+
+/*tabla2*/
+table{
+    width: 100%;
+}
+.tit-tab{
+    background-color: #423030;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.encab-tab{
+    font-weight: bold;
+    background-color: #513F3F;
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 50%;
+}
+.items-tab{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    width: 50%;
+}
+.text-2{
+    border: 0;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+}
+
+/*colum der*/
+.icon-pal{
+    margin-top: 24px;
+    width: 100%;
+}
+.fa-check-circle{
+    font-size: 80px;
+    margin-left: 45%;
+    color: green;
+}
+.text-grac{
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/*boton*/
+.btn-re{
+    border: 3px solid #441515;
+    text-align: center;
+    width: 450px;
+    height: 50px;
+    font-size: 25px;
+    font-family: bold;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    color: black;
+}
+.btn-re:hover{
+    background: #441515;
+    color: white;
+}
